@@ -58,10 +58,10 @@ public class MainActivity extends AppCompatActivity {
         {
             boolean correct = intent.getBooleanExtra("Correct", true);
             if (correct) {
-                Toast.makeText(this, "Correct! +1", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Correct! +1", Toast.LENGTH_SHORT).show();
                 //readWrite.writeToFile(String.valueOf(readWrite.returnScore()));
             } else {
-                Toast.makeText(this, "Incorrect... -999", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Incorrect... -999", Toast.LENGTH_SHORT).show();
             }
         }
     }
